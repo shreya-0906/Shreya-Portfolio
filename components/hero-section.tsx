@@ -10,8 +10,7 @@ export default function HeroSection() {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })
   }
 
-  // ✅ Your actual photo (put this file inside public folder as "shreya-profile.jpg")
-  const profileImage = "/shreya-profile.jpg" 
+  const profileImage = "/shreya-profile.jpg" // Your image in public folder
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
@@ -108,26 +107,26 @@ export default function HeroSection() {
             >
               <a href="https://github.com/shreya-0906" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="text-[#4DABF7] hover:bg-[#1E3A70]/20">
-                  <Github className="h-7 w-7" /> {/* Bigger Icons */}
+                  <Github className="h-7 w-7" />
                 </Button>
               </a>
               <a href="https://www.linkedin.com/in/shreya-s-694b75245/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="text-[#4DABF7] hover:bg-[#1E3A70]/20">
-                  <Linkedin className="h-7 w-7" /> {/* Bigger Icons */}
+                  <Linkedin className="h-7 w-7" />
                 </Button>
               </a>
             </motion.div>
           </motion.div>
 
-          {/* Profile Image with Hover Effect */}
+          {/* Profile Image with Adjusted Position */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-center lg:pl-12" // ⬅ shifted slightly left
           >
             <motion.div
-              whileHover={{ scale: 1.05, rotate: 2 }} // Smooth Hover Animation
+              whileHover={{ scale: 1.05, rotate: 2 }}
               transition={{ type: "spring", stiffness: 200 }}
               className="relative"
             >
