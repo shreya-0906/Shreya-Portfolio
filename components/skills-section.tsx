@@ -11,7 +11,7 @@ export default function SkillsSection() {
       title: "Data & Tech Skills",
       icon: HardDrive,
       skills: [
-        { name: "Python", level: 60, color: "#3776AB" },
+        { name: "Python", level: 30, color: "#3776AB" },
         { name: "Power BI", level: 75, color: "#F2C811" },
         { name: "SQL", level: 80, color: "#4479A1" },
         { name: "JavaScript", level: 70, color: "#F7DF1E" },
@@ -23,7 +23,7 @@ export default function SkillsSection() {
       icon: Code,
       skills: [
         { name: "React.js", level: 60, color: "#61DAFB" },
-        { name: "Tailwind CSS", level: 75, color: "#06B6D4" },
+        { name: "Tailwind CSS", level: 60, color: "#06B6D4" },
         { name: "HTML/CSS", level: 90, color: "#E34F26" },
         { name: "Figma", level: 70, color: "#F24E1E" },
       ],
@@ -41,7 +41,7 @@ export default function SkillsSection() {
       title: "Domains & Non-Tech",
       icon: Server,
       skills: [
-        { name: "Data Analytics", level: 90, color: "#4DABF7" },
+        { name: "Business Analytics", level: 90, color: "#4DABF7" },
         { name: "Web Development", level: 85, color: "#74C0FC" },
         { name: "Business Communication", level: 95, color: "#27AE60" },
         { name: "Human Resource Management", level: 80, color: "#F39C12" },
